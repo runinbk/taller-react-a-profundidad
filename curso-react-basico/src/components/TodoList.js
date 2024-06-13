@@ -1,9 +1,9 @@
 
-
+import "./styles/TodoList.css"
 
 function TodoList({ children }) {
   return (
-      <lu>
+      <lu className = "TodoList">
         {children}
       </lu>
     )
